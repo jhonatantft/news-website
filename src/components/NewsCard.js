@@ -23,12 +23,14 @@ class NewsCard extends Component {
                       </svg>
                       by {this.props.data.author}
                     </span>
+                    <a href={this.props.data.url} target="_blank">
                     <p className="description">
                         {this.props.data.description}
                       {/* <a className="url" href='{this.state.url}' target="_blank">
                         read more
                       </a> */}
                     </p>
+                    </a>
                   </div>
                 </div>
               </div>

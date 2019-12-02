@@ -49,6 +49,8 @@ body {
     height: auto; }
   .news .news-text {
     padding: 5px 0; }
+    .news .news-text a {
+      text-decoration: none; }
   .news .title {
     color: #000;
     font-size: 17px;
