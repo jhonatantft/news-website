@@ -1,0 +1,1 @@
+web: wepback -p && node server.js
