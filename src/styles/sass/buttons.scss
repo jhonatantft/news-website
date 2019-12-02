@@ -1,0 +1,121 @@
+.btn {
+    display: inline-block;
+    padding: 0px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e5e5e;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #d1dade;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image: none !important;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    transition: all 0.12s linear 0s !important;
+    font-family: 'Lato';
+}
+
+
+.btn-cons {
+    min-width: 120px;
+    margin-bottom: 8px;
+}
+
+.btn-blue {
+    color: #4A90E2;
+    border: 1px solid #4A90E2;
+    background-color: #fff;
+    
+    &:hover {
+        color: #fff;
+        background-color: #4A90E2;
+    }
+}
+
+.btn-green {
+    color: #7CBB37;
+    border: 1px solid #7CBB37;
+    background-color: #fff;
+    
+    &:hover {
+        color: #fff;
+        background-color: #7CBB37;
+    }
+}
+
+.btn-purple {
+    color: #BD10E0;
+    border: 1px solid #BD10E0;
+    background-color: #fff;
+    
+    &:hover {
+        color: #fff;
+        background-color: #BD10E0;
+    }
+}
+
+.btn-orange {
+    color: #F5A623;
+    border: 1px solid #F5A623;
+    background-color: #fff;
+    
+    &:hover {
+        color: #fff;
+        background-color: #F5A623;
+    }
+}
+
+.btn-red {
+    color:  #D0021B;
+    border: 1px solid #D0021B;
+    background-color: #fff;
+    
+    &:hover {
+        color: #fff;
+        background-color: #D0021B;
+    }
+}
+
+.btn-big {
+    background-color: #4990E2;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    width: 242px !important;
+    height: 52px !important;
+    border-radius: 0;
+
+    &:hover {
+        background-color: #5E9BE2;
+        border: 1px solid #5E9BE2;
+    }
+
+}
+
+.btn-round {
+    width: 97px;
+    height: 28px;
+    line-height: 17px;
+    border-radius: 50px;
+    margin: 6px;
+}
+
+.account-submit {
+    display: inline-block;
+
+    .btn-none {
+        color:  #4990E2;
+        border: none;
+        background-color: #fff;
+        
+        &:hover {
+            color: #5E9BE2;
+            background-color: transparent;
+        }
+    }
+}

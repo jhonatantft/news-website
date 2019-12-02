@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Lato', sans-serif;
+	src: url('../../assets/fonts/Lato-Regular.ttf') format('ttf'),
+}
+
+@import 'app';
+@import 'index';
+@import 'header';
+@import 'login';
+@import 'buttons';
