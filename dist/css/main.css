@@ -265,6 +265,9 @@ nav {
     display: none; } }
 
 @media (max-width: 750px) {
+  nav {
+    z-index: 9;
+    height: auto; }
   .logo {
     position: absolute;
     left: 50%;
