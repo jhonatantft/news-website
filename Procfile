@@ -1,1 +1,1 @@
-web: wepback -p && node server.js
+web: npm run build-heroku
